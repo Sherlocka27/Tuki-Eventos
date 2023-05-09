@@ -30,3 +30,36 @@ nav a:hover{
 #textos-header{
     padding: 5%;
 }
+
+.container{
+    width: 10%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+label{
+        margin-bottom: 7px;
+      
+}
+
+.form-control{
+    color: white;
+}
+
+.input-group-text{
+    color: white;
+    width: 50%;
+}
+ #imput_text{
+    color: white;
+ }
+::placeholder{
+    color: white;
+}
+ .btn-outline-secondary{
+    color: white;
+ }

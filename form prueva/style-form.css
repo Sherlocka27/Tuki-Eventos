@@ -35,3 +35,13 @@ nav a:hover{
     color: white;
 }
 
+.container{
+    width: 10%;
+    height: 100vh;
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
