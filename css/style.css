@@ -31,20 +31,37 @@ nav a:hover{
     padding: 5%;
 }
 
+
+#h2Contacto{
+
+    margin-top: 13rem;
+    height: 10px;
+    width: auto;
+    text-align: center;
+   
+ }
+
+
 .container{
-    width: 10%;
-    height: 100vh;
+    
+    width: 100vb;
+    height: 95vh;
     background-color:white;
     display: flex;
+  
     align-items: center;
     justify-content: center;
   
   }
 
+ 
+
 label{
         margin-bottom: 7px;
       
 }
+
+
 
 .form-control{
     color: white;
