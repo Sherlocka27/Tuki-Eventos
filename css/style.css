@@ -35,6 +35,7 @@ nav a:hover{
 #h2Contacto{
 
     margin-top: 13rem;
+    margin-bottom: 5rem;
     height: 10px;
     width: auto;
     text-align: center;
@@ -44,20 +45,20 @@ nav a:hover{
 
 .container{
     
-    width: 100vb;
-    height: 95vh;
+    width: 70%;
+    height: 80vh;
     background-color:white;
     display: flex;
-  
     align-items: center;
-    justify-content: center;
+   
   
   }
 
  
 
 label{
-        margin-bottom: 7px;
+      
+
       
 }
 
