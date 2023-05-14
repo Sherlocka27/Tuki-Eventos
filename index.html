@@ -21,32 +21,45 @@
 </head>
 
 <body>
-    <header id="img-nav-cont">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Servicios</a>
-            <a href="#">Portfolio</a>
-            <a href=#Contacto>Contacto</a>
-        </nav>
-        <section id="textos-header">
-            <h1>TUKI EVENTOS</h1>
-            <h2>Subtitulo</h2>
-        </section>
-    </header>
+  <header id="img-nav-cont">
+    <nav>
+      <img src="./img/Logo-banner.png" alt="Logo de Neon Dinosaurio" id="logo">
+      <a href="#titulo-principal">Home</a>
+      <a href="#contenedor-sobre-nosotros">Servicios</a>
+      <a href="#galeria-imagenes">Portfolio</a>
+      <a href=#Contacto>Contacto</a>
+      <img src="./img/Tuki-Eventos.png" alt="Logo de Neon Dinosaurio" id="Tuki-img">
+    </nav>
+  </header>
 
-    <main>
+  <main>
+      <section id="titulo-principal">
+        <h1>TUKI EVENTOS</h1>
+        <h2>Tu lugar en el mundo</h2>
+     </section>
+
         <section id="contenedor-sobre-nosotros">
-            <h2 id="main-titulo">Bienvenidos a Tuki Eventos</h2>
-            <article id="contenedor-sobre-nosotros">
-                <img src="#" alt="" id="imagen-about-us">
-                <div id="contenido-textos">
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptas sunt obcaecati nobis tempora 
-                    ipsam cumque similique maiores, dignissimos, commodi totam, sequi natus saepe vero rerum dicta aut ratione labore.
-                    </p>
-                </div>
-            </article>
+          <h2 id="main-titulo">¡Bienvenidos a Tuki Eventos!</h2>
+          <article>
+            <p class="parrafo-principal">Somos el lugar perfecto para aquellos que aman los videojuegos y desean celebrar eventos inolvidables. 
+            </p>
+            <p class="parrafo-principal">En Tuki Eventos, combinamos la emoción de los videojuegos arcade clásicos con la comodidad de las consolas y las PC de última generación, para brindar una experiencia única a nuestros clientes de todas las edades.
+              Si estás buscando el escenario ideal para tu próximo cumpleaños, has llegado al lugar correcto.
+            </p>
+            <p class="parrafo-principal">En nuestro salón de eventos, podrás sumergirte en un mundo de diversión y entretenimiento, rodeado de tus amigos y seres queridos. Nuestro equipo se encargará de crear una atmósfera festiva y emocionante, donde cada invitado disfrutará al máximo de nuestros videojuegos arcade, consolas y PC.
+
+            </p>
+            <p class="parrafo-principal">¿Eres un apasionado de los torneos de videojuegos? En Tuki Eventos, ofrecemos la plataforma perfecta para competir y demostrar tus habilidades. Organizamos torneos regulares en los que podrás enfrentarte a otros jugadores y ganar fantásticos premios. Ya seas un jugador casual o un experto en los eSports, encontrarás desafíos a tu medida y la oportunidad de conocer a otros entusiastas de los videojuegos.
+              Nuestro objetivo es proporcionar diversión y entretenimiento para todas las edades. Desde los más pequeños hasta los más grandes, todos encontrarán algo emocionante en Tuki Eventos. Nuestra amplia selección de juegos arcade, consolas y PC incluye clásicos atemporales, títulos populares y las últimas novedades del mundo de los videojuegos.
+            </p>
+            <p class="parrafo-principal">Nuestro personal capacitado estará encantado de brindarte asistencia y recomendaciones para que disfrutes al máximo de tu experiencia en nuestro salón. En Tuki Eventos, la diversión no tiene límites. Además de cumpleaños y torneos, también organizamos eventos recreativos temáticos, donde puedes sumergirte en el mundo de tus juegos favoritos. Desde fiestas de disfraces hasta noches de nostalgia, siempre hay algo emocionante sucediendo en nuestro salón.
+              No importa si eres un jugador ávido o simplemente quieres pasar un rato divertido con amigos y familiares, en Tuki Eventos encontrarás el lugar perfecto para celebrar tus eventos.
+            </p>
+            <p class="parrafo-principal">Ven y únete a la diversión en nuestro salón, donde los videojuegos se vuelven realidad. ¡Te esperamos con los brazos abiertos!
+            </p>
+          </article>
         </section>
+
         <section id="galeria-imagenes"> <!-- PRUEBA CAROUSEL EN JS EN DESARROLLO-->
 
           <div class="carousel">
@@ -80,64 +93,52 @@
 
         </section> <!-- FIN PRUEBA CAROUSEL EN JS -->
 
-  
         <h2 id="h2Contacto">Contactanos</h2> 
-
-        
         <div class="container" id="Contacto" >
 
-          
-       
-        
-
-            <form class="row mgt=3"  >
-        
-        
-                    <div class="mb-3" >
-                      <div class="col 6">
-                          <label for="exampleInputEmail1" id="imput_text" >Nombre</label>
-                          <input type="text" class control aria-describedby="Nombre">
-                        <div id="emailHelp" class="form-text"></div>
-                      </div>
-                    </div>
-        
-        
-                    <div class="mb-3">
-                      <div class="col 6">
-                          <label for="exampleInputEmail1" id="imput_text" >Apellido</label>
-                          <input type="text" class control aria-describedby="Apellido">
-                        <div id="emailHelp" class="form-text"></div>
-                      </div>
-                    </div>
-                    
-        
-                    <div class="mb-3">
-                      <div class="col 6">
-                          <label for="exampleInputEmail1" id="imput_text" >Correo electrónico </label>
-                          <input type="email" class control id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text"></div>
-                      </div>
-                    </div>
-
-    
-                    
-                    <div class="mb-3">
-                            <div class="col 6">
-                                    <span>Dejanos tu comentario</span>
-                                    <textarea class="form-control" name="Aqui..." h-70 style="height: 250px;" id="imput_text" aria-label="With textarea" placeholder="Aqui..."> </textarea>
-                            </div>
-                    </div>
-                  
-                      <button type="submit" class="btn btn-primary">Enviar</button>
-             
-            </form>
-        
+        <form class="row mgt=3"  >
+          <div class="mb-3" >
+            <div class="col 6">
+                <label for="exampleInputEmail1" class="imput_text" >Nombre</label>
+                <input type="text" class control aria-describedby="Nombre">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
           </div>
 
+          <div class="mb-3">
+            <div class="col 6">
+                <label for="exampleInputEmail1" class="imput_text" >Apellido</label>
+                <input type="text" class control aria-describedby="Apellido">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+          </div>
+          
+          <div class="mb-3">
+            <div class="col 6">
+                <label for="exampleInputEmail1" class="imput_text" >Correo electrónico </label>
+                <input type="email" class control id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+          </div>
 
-    </main>
+          <div class="mb-3">
+                  <div class="col 6">
+                          <span>Dejanos tu comentario</span>
+                          <textarea class="form-control" name="Aqui..." h-70 class="imput_text" aria-label="With textarea" placeholder="Aqui..."> </textarea>
+                  </div>
+          </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+        
+          </div>
+  </main>
+
+  <footer>
+      <p id="Copyright">&COPY todos los derechos reservados 2023</p>
+  </footer>
 
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/b8f3d0268d.js" crossorigin="anonymous"></script>
 <script src="./js/main.js"></script>

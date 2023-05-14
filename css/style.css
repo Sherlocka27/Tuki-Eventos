@@ -1,72 +1,119 @@
 *{
-    background-color: black;
-    color: white;
-    /*border: 2px solid black;*/
-    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: yellow;
     box-sizing: border-box;
     font-family: 'Bruno Ace SC';
-    background-image: url(../img/Background.png);
-    background-attachment:fixed;
-    
+    /*border: 2px solid white;*/
 }
-nav{
-    background-image: url(../img/Banner-base.png);
-    background-size:contain;
-    background-attachment:fixed;
-    padding: 2rem;
+/*INICIO CONFIGURACION DE BARRA DE NAVEGACIÓN*/
+header{
+  position:fixed;
+  z-index: 100;
+  width: 100%;
+  background-image: url(../img/Banner-base.png);
+  background-size:contain;
+  background-attachment:fixed;
+  margin:0;
+  border:0;
+  padding: 0.1rem;
+  text-align: center;
+  opacity: 0.9;
 }
+
 nav a{
-    display: inline-block;
-    background: none;
-    padding:0 5% 0rem 5%;
-    color: red;
-    text-decoration: none;
+  display: inline-block;
+  background: none;
+  padding:0 3% 0 3%;
+  color: red;
+  text-decoration: none;
 }
+
 nav a:hover{
     color: yellow;
     font-size: large;
 }
 
-#textos-header{
-    padding: 5%;
+#logo{
+  width: 5rem;
+  margin: 0%;
+  margin-right: 5%;
+}
+#Tuki-img{
+  width: 8rem;
+  margin: 0%;
+  margin-left:5%;
 }
 
+/*FIN CONFIGURACION DE BARRA DE NAVEGACIÓN*/
 
+body{
+  background-color: black;
+}
+
+main{
+  background-image: url(../img/Background.png);
+  background-attachment:fixed;
+  padding: 5rem;
+}
+
+footer{
+  background-image: none;
+  padding: 2%;
+  text-align: center;
+}
+#contenedor-sobre-nosotros{
+  text-align: center;
+}
+.parrafo-principal{
+  text-align: justify;
+  background-color: rgba(0,0,0,0.5);
+  /*border: 1px solid white;*/
+  text-indent: 2rem;
+  
+}
+#copyright{
+  text-align:end;
+}
+#titulo-principal{
+  text-align: center;
+  margin: 0;
+  padding: 10%;
+  text-decoration:underline;
+}
 #h2Contacto{
-
-    margin-top: 13rem;
-    margin-bottom: 5rem;
-    height: 10px;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    height: 1rem;
     width: auto;
     text-align: center;
-   
+    text-decoration: underline;
  }
 
 
 .container{
-    
     width: 70%;
     height: 80vh;
-    background-color:white;
-    display: flex;
+    display: flexbox;
     align-items: center;
-   
-  
+    text-align: center;
   }
 
-  .form-control{
-    color: white;
+.form-control{
+    background-color: black; 
 }
 
+input{
+  background-image: none;
+  background-color: black;
+}
+textarea{
+  background-color: black;
+  height: 5rem;
+}
 .input-group-text{
     color: white;
     width: 50%;
-}
- #imput_text{
-    color: white;
- }
-::placeholder{
-    color: white;
 }
  .btn-outline-secondary{
     color: white;
