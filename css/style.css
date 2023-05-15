@@ -197,3 +197,278 @@ textarea{
   }
 }
 /* FIN PRUEBA CAROUSEL EN JS */   
+
+
+
+
+
+/* Media Queries para dispositivos con ancho máximo de 357px */
+@media only screen and (max-width: 357px) {
+  /* Estilos para dispositivos con ancho máximo de 357px */
+
+  /* Estilos para el encabezado */
+  header {
+    text-align: center;
+  }
+
+  #logo {
+    display: none;
+  }
+  #Tuki-img{
+    display: none;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para el contenido principal */
+
+  
+  #titulo-principal h1 {
+    font-size: 20px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 16px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 12px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  .carousel {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 10px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 10px;
+  }
+
+  form .col-6 {
+    width: 100%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+  /* Estilos para celulares */
+  /* Encabezado */
+  
+  header {
+    text-align: center;
+    
+  }
+  #Tuki-img {
+    display: none;  
+  }
+
+  #logo {
+   display: none; 
+  }
+
+  nav a {
+    display: block;
+    /*margin-bottom: 10px;*/
+  }
+
+  /* Estilos para el contenido principal */
+   #titulo-principal h1 {
+    font-size: 24px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 18px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 14px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  #galeria-imagenes{
+    margin-top: 100px;
+  }
+  .carousel {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 10px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 10px;
+  }
+
+  form .col-6 {
+    width: 100%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+
+/* Media Queries para tabletas */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tabletas */
+
+  /* Estilos para el encabezado */
+  header {
+    text-align: center;
+  }
+
+  #logo {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* Estilos para el contenido principal */
+  #titulo-principal h1 {
+    font-size: 30px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 24px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 16px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 20px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 15px;
+  }
+
+  form .col-6 {
+    width: 50%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+/* MEDIA QUERIES PARA TABLETAS !!!! */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tabletas */
+
+  /* Estilos para el encabezado */
+  header {
+    text-align: center;
+  }
+
+  #logo {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* Estilos para el contenido principal */
+  #titulo-principal h1 {
+    font-size: 30px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 24px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 16px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 20px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 15px;
+  }
+
+  form .col-6 {
+    width: 50%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
