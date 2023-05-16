@@ -1,0 +1,484 @@
+<<<<<<< Updated upstream
+=======
+*{
+    padding: 0;
+    margin: 0;
+    color: yellow;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC';
+    /*border: 2px solid white;*/
+}
+/*INICIO CONFIGURACION DE BARRA DE NAVEGACIÓN*/
+header{
+  position:fixed;
+  z-index: 100;
+  width: 100%;
+  background-image: url(../img/Banner-base.png);
+  background-size:contain;
+  background-attachment:fixed;
+  margin:0;
+  border:0;
+  padding: 0.1rem;
+  text-align: center;
+  opacity: 0.9;
+}
+
+nav a{
+  display: inline-block;
+  background: none;
+  padding:0 3% 0 3%;
+  color: red;
+  text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+    font-size: large;
+}
+
+#logo{
+  width: 5rem;
+  margin: 0%;
+  margin-right: 5%;
+}
+#Tuki-img{
+  width: 8rem;
+  margin: 0%;
+  margin-left:5%;
+}
+
+/*FIN CONFIGURACION DE BARRA DE NAVEGACIÓN*/
+
+body{
+  background-color: black;
+}
+
+main{
+  background-image: url(../img/Background.png);
+  background-attachment:fixed;
+  padding: 5rem;
+}
+
+footer{
+  background-image: none;
+  padding: 2%;
+  text-align: center;
+}
+#contenedor-sobre-nosotros{
+  text-align: center;
+}
+.parrafo-principal{
+  text-align: justify;
+  background-color: rgba(0,0,0,0.5);
+  /*border: 1px solid white;*/
+  text-indent: 2rem;
+  
+}
+#copyright{
+  text-align:end;
+}
+#titulo-principal{
+  text-align: center;
+  margin: 0;
+  padding: 10%;
+  text-decoration:underline;
+}
+.h2Contacto{
+    padding-top: 10%;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    height: 1rem;
+    width: auto;
+    text-align: center;
+    text-decoration: underline;
+ }
+
+
+#containerContacto{
+    width: 70%;
+    height: 80vh;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+  }
+
+form{
+  width: 100%;
+}
+
+.form-control{
+    background-color: black; 
+}
+
+input{
+  width: 100%;
+  background-image: none;
+  background-color: rgb(194, 194, 194);
+}
+textarea{
+  background-color: black;
+  height: 150px;
+  width: 100%;
+}
+.input-group-text{
+    color: white;
+    width: 100%;
+}
+ .btn-outline-secondary{
+    color: white;
+ }
+
+ /* INICIO PRUEBA CAROUSEL EN JS */
+
+#galeria-imagenes {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+.carousel {
+  margin-top: 10rem;
+  overflow: hidden;
+  /*width: 50%;*/
+  /*max-width: 60%;
+  max-height: 60%;*/
+  position: relative;
+}
+  
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+  display: none;
+}
+  
+.carousel .carousel__item img {
+  /*width: 100%;*/
+  /*max-width: 50%;*/
+}
+
+.carousel img{
+  float: left;
+  width: 1000px;
+  height: 600px;
+  object-fit: cover;
+  
+}
+.carousel .carousel__item--visible {
+  display: block;
+  animation: fadeVisibility 0.5s;
+}
+  
+.carousel .carousel__actions {
+  background: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+    
+}
+  
+.carousel .carousel__actions button {
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+  
+.carousel .carousel__actions button#carousel__button--prev {
+  margin-left: 20px;
+  background: none;
+}
+  
+.carousel .carousel__actions button#carousel__button--next {
+  margin-right: 20px;
+  background: none;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
+}
+/* FIN PRUEBA CAROUSEL EN JS */   
+
+
+
+
+
+/* Media Queries para dispositivos con ancho máximo de 357px */
+@media only screen and (max-width: 357px) {
+  /* Estilos para dispositivos con ancho máximo de 357px */
+
+  /* Estilos para el encabezado */
+  header {
+    text-align: center;
+  }
+
+  #logo {
+    display: none;
+  }
+  #Tuki-img{
+    display: none;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para el contenido principal */
+
+  
+  #titulo-principal h1 {
+    font-size: 20px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 16px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 12px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  .carousel {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 10px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 10px;
+  }
+
+  form .col-6 {
+    width: 100%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+  /* Estilos para celulares */
+  /* Encabezado */
+  
+  header {
+    text-align: center;
+    
+  }
+  #Tuki-img {
+    display: none;  
+  }
+
+  #logo {
+   display: none; 
+  }
+
+  nav a {
+    display: block;
+    /*margin-bottom: 10px;*/
+  }
+
+  /* Estilos para el contenido principal */
+   #titulo-principal h1 {
+    font-size: 24px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 18px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 14px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  #galeria-imagenes{
+    margin-top: 100px;
+  }
+  .carousel {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 10px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 10px;
+  }
+
+  form .col-6 {
+    width: 100%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+
+/* Media Queries para tabletas */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tabletas */
+
+  /* Estilos para el encabezado */
+  header {
+    text-align: center;
+  }
+
+  #logo {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* Estilos para el contenido principal */
+  #titulo-principal h1 {
+    font-size: 30px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 24px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 16px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 20px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 15px;
+  }
+
+  form .col-6 {
+    width: 50%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+/* MEDIA QUERIES PARA TABLETAS !!!! */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tabletas */
+
+  /* Estilos para el encabezado */
+  header {
+    text-align: center;
+  }
+
+  #logo {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* Estilos para el contenido principal */
+  #titulo-principal h1 {
+    font-size: 30px;
+  }
+
+  #titulo-principal h2 {
+    font-size: 24px;
+  }
+
+  #contenedor-sobre-nosotros article p {
+    font-size: 16px;
+  }
+
+  /* Estilos para la sección de galería de imágenes */
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .carousel__item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para el formulario de contacto */
+  .container {
+    padding: 20px;
+  }
+
+  form .mb-3 {
+    margin-bottom: 15px;
+  }
+
+  form .col-6 {
+    width: 50%;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+>>>>>>> Stashed changes
