@@ -78,9 +78,14 @@ footer{
 #titulo-principal{
   text-align: center;
   margin: 0;
-  padding: 10%;
+  padding: 50px;
   text-decoration:underline;
 }
+
+#main-titulo{
+  padding: 50px;
+}
+
 #h2Contacto{
     margin-top: 10rem;
     margin-bottom: 3rem;
@@ -361,7 +366,7 @@ textarea{
   }
 
   #logo {
-    width: 60%;
+    width: 3%;
     margin: 10px auto;
   }
 
@@ -418,65 +423,3 @@ textarea{
 
 
 
-/* MEDIA QUERIES PARA TABLETAS !!!! */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Estilos para tabletas */
-
-  /* Estilos para el encabezado */
-  header {
-    text-align: center;
-  }
-
-  #logo {
-    width: 60%;
-    margin: 10px auto;
-  }
-
-  nav a {
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  /* Estilos para el contenido principal */
-  #titulo-principal h1 {
-    font-size: 30px;
-  }
-
-  #titulo-principal h2 {
-    font-size: 24px;
-  }
-
-  #contenedor-sobre-nosotros article p {
-    font-size: 16px;
-  }
-
-  /* Estilos para la sección de galería de imágenes */
-  .carousel {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .carousel__item img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* Estilos para el formulario de contacto */
-  .container {
-    padding: 20px;
-  }
-
-  form .mb-3 {
-    margin-bottom: 15px;
-  }
-
-  form .col-6 {
-    width: 50%;
-  }
-
-  /* Estilos para el pie de página */
-  footer {
-    text-align: center;
-    font-size: 14px;
-  }
-}
