@@ -76,12 +76,17 @@ footer{
   text-align:end;
 }
 #titulo-principal{
+  margin-top: 3rem;
   text-align: center;
-  margin: 0;
-  padding: 50px;
-  text-decoration:underline;
+  padding: 17rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
 }
 
+h2{
+  margin-top: 5rem;
+}
 #main-titulo{
   padding: 50px;
 }
@@ -216,7 +221,8 @@ textarea{
 
 
 /* Media Queries para dispositivos con ancho máximo de 357px */
-@media only screen and (max-width: 357px) {
+@media only screen and (max-width: 357px) 
+{
   /* Estilos para dispositivos con ancho máximo de 357px */
 
   main{
@@ -236,21 +242,20 @@ textarea{
   /* Estilos para el contenido principal */
 
   #titulo-principal{
+    margin: 10rem 3rem 10rem;
     text-align: center;
-    padding: 0%;
+    padding: 7rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    
   }
-  #titulo-principal h1 {
-    width: 100%;
-    font-size: 8vw;
-    background-color: antiquewhite;
-    display: block;
-    }
 
   #titulo-principal h2 {
     width: 100%;
     display: block;
     font-size: 6vw;
-    background-color: aquamarine;
+  
   }
 
   #contenedor-sobre-nosotros{
@@ -262,9 +267,7 @@ textarea{
     font-size: 3.5vw;
     }
 
-    #main-titulo{
-      display: none;
-    }
+  
   
   #pp3{
     display: none;
@@ -326,7 +329,6 @@ textarea{
 
   #h2Contacto{
     padding-top: 0%;
-    background-color: aquamarine;
   }
   /* Estilos para el pie de página */
   footer {
