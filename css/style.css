@@ -148,11 +148,6 @@ textarea{
   display: none;
 }
   
-.carousel .carousel__item img {
-  /*width: 100%;*/
-  /*max-width: 50%;*/
-}
-
 .carousel img{
   float: left;
   width: 1000px;
@@ -213,38 +208,64 @@ textarea{
 @media only screen and (max-width: 357px) {
   /* Estilos para dispositivos con ancho máximo de 357px */
 
-  /* Estilos para el encabezado */
-  header {
-    text-align: center;
+  main{
+    padding: 0%;
   }
-
+  /* Estilos para el encabezado */
   #logo {
     display: none;
   }
   #Tuki-img{
     display: none;
   }
-
-  nav a {
-    display: block;
-    margin-bottom: 10px;
+  #img-nav-cont{
+    display: none;
   }
-
+  
   /* Estilos para el contenido principal */
 
-  
-  #titulo-principal h1 {
-    font-size: 20px;
+  #titulo-principal{
+    text-align: center;
+    padding: 0%;
   }
+  #titulo-principal h1 {
+    width: 100%;
+    font-size: 8vw;
+    background-color: antiquewhite;
+    display: block;
+    }
 
   #titulo-principal h2 {
-    font-size: 16px;
+    width: 100%;
+    display: block;
+    font-size: 6vw;
+    background-color: aquamarine;
+  }
+
+  #contenedor-sobre-nosotros{
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   #contenedor-sobre-nosotros article p {
-    font-size: 12px;
+    font-size: 3.5vw;
+    }
+
+    #main-titulo{
+      display: none;
+    }
+  
+  #pp3{
+    display: none;
   }
 
+  #pp4{
+    display: none;
+  }
+
+  #pp5{
+    display: none;
+  }
   /* Estilos para la sección de galería de imágenes */
   .carousel {
     width: 90%;
@@ -275,10 +296,14 @@ textarea{
 
   }
 
+  #h2Contacto{
+    padding-top: 0%;
+    background-color: aquamarine;
+  }
   /* Estilos para el pie de página */
   footer {
     text-align: center;
-    font-size: 10px;
+    font-size: 3.5vw;
   }
 }
 
