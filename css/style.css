@@ -108,15 +108,26 @@ footer{
 
 .form-control{
     background-color: black; 
+    color: white;
+}
+
+input:focus {
+  background: white;
+  color: black;
+  
 }
 
 input{
   background-image: none;
   background-color: black;
+  color: white;
+  padding: 5px;
 }
 textarea{
-  background-color: black;
-  height: 5rem;
+  background-color: white;
+  height: 10rem;
+  color: white;
+  padding: 5px;
 }
 .input-group-text{
     color: white;
@@ -282,9 +293,26 @@ textarea{
     padding: 10px;
   }
 
+  input{
+    width: 100%
+  }
+
+  label{
+    display: grid;
+    width: 100%;
+    font-size: small;
+  }
+
+  span{
+    display: grid;
+    width: 100%;
+    font-size: small;
+  }
+
   form .mb-3 {
     margin-bottom: 10px;
   }
+
 
   form .col-6 {
     width: 100%;
@@ -363,6 +391,22 @@ textarea{
   /* Estilos para el formulario de contacto */
   .container {
     padding: 10px;
+  }
+
+  input{
+    width: 100%
+  }
+
+  label{
+    display: grid;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  span{
+    display: grid;
+    width: 100%;
+    font-size: 14px;
   }
 
   form .mb-3 {
