@@ -102,6 +102,11 @@ h2{
     text-decoration: underline;
  }
 
+ .fa-brands:hover{
+   color: red;
+   size: 200%;
+ }
+
 
 .container{
     width: 70%;
@@ -224,12 +229,8 @@ textarea{
 /* FIN PRUEBA CAROUSEL EN JS */   
 
 
-
-
-
 /* Media Queries para dispositivos con ancho máximo de 357px */
-@media only screen and (max-width: 357px) 
-{
+@media only screen and (max-width: 357px) {
   /* Estilos para dispositivos con ancho máximo de 357px */
 
   main{
@@ -336,7 +337,7 @@ textarea{
 
   /* Estilos para el formulario de contacto */
   .container {
-    padding: 10px;
+    padding: 5px;
   }
 
   input{
@@ -379,11 +380,6 @@ textarea{
     font-size: 3.5vw;
   }
 }
-
-
-
-
-
 
 @media only screen and (min-width: 358px) and (max-width: 767px) {
   /* Estilos para celulares */
@@ -493,7 +489,7 @@ textarea{
 
   /* Estilos para el formulario de contacto */
   .container {
-    padding: 10px;
+    padding: 0px;
   }
 
   input{
@@ -526,7 +522,6 @@ textarea{
     font-size: 3.5vw;
   }
 }
-
 
 /* Media Queries para tabletas */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
