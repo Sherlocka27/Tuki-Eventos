@@ -28,3 +28,4 @@ Puedes contactarnos a través de los siguientes medios:
 
 ¡Te esperamos con los brazos abiertos en nuestro salón, donde los videojuegos se vuelven realidad!
 
+&copy; Todos los derechos reservados 2023
