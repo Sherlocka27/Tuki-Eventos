@@ -208,6 +208,8 @@ textarea{
   background: none;
 }
 
+
+
 @keyframes fadeVisibility {
   0% {
     opacity: 0;
@@ -218,6 +220,51 @@ textarea{
   }
 }
 /* FIN CAROUSEL EN JS */   
+
+/* ESTILOS FORM*/
+
+.contact-form{
+  --form-ok-color: #4caf50;
+  --form-error-color: #f44336;
+}
+
+.contact-form[required]:valid{
+  border: solid var(--form-ok-color);
+}
+.contact-form[required]:invalid{
+  border: solid var(--form-error-color);
+}
+
+.none{
+  display: none;
+}
+
+.contact-form-error {
+  margin-top: 0.5rem;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 50%;
+  background-color: var(--form-error-color);
+  color: #fff;
+  transition: all 800ms ease;
+}
+
+.contact-form-error.is-active {
+  display: block;
+  animation: show-message 1s normal 0s ease-out both;
+}
+
+@keyframes show-message{
+  0%{
+    visibility: hidden;
+    opacity: 0;
+  } 
+  100%{
+    visibility: visible;
+    opacity: 1;
+  }
+
+}
 
 /* Media Queries para dispositivos con ancho máximo de 357px */
 @media only screen and (max-width: 357px) {
@@ -309,6 +356,10 @@ textarea{
   .container {
     padding: 10px;
   }
+
+
+
+
 
   input{
     width: 100%

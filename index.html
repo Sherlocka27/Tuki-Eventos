@@ -147,40 +147,58 @@
     <h2 id="h2Contacto">Contactanos</h2>
     <div class="container" id="Contacto">
 
-      <form class="row mgt=3" action="https://formsubmit.co/tuki.evento@outlook.com" method="POST">
+      <form class="row mgt=3 contact-form" id="formulario">
+        
         <div class="mb-3">
-          <div class="col 6 form-control form-control-lg">
+          <div class="col 6 form-control form-control-lg" id="imputNombre">
             <label for="exampleInputEmail1" class="imput_text">Nombre:</label>
-            <input type="text" class control aria-describedby="Nombre" name="name">
-            <div id="emailHelp" class="form-text"></div>
+            <input type="text" class="form-control" aria-describedby="Nombre" name="name" placeholder="Nombre"
+            title="El campo nombre solo acepta Letras y espacios" 
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
           </div>
         </div>
 
         <div class="mb-3">
-          <div class="col 6 form-control form-control-lg">
+          <div class="col 6 form-control form-control-lg" id="imputApellido">
             <label for="exampleInputEmail1" class="imput_text">Apellido:</label>
-            <input type="text" class control aria-describedby="Apellido" name="name">
-            <div id="emailHelp" class="form-text"></div>
+            <input type="text" class="form-control" aria-describedby="Apellido" name="surname" placeholder="Apellido"
+            title="El campo apellido solo acepta Letras y espacios" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
           </div>
         </div>
 
         <div class="mb-3">
-          <div class="col 6 form-control form-control-lg">
+          <div class="col 6 form-control form-control-lg" id="imputEmail">
             <label for="exampleInputEmail1" class="imput_text">Correo electrónico: </label>
-            <input type="email" class control id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
-            <div id="emailHelp" class="form-text"></div>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="correo@example.com"
+            title="El campo correo solo admite un mail valido" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+            <div id="emailHelp" class="form-text" ></div>
           </div>
         </div>
 
         <div class="mb-3">
           <div class="col 6 form-control form-control-lg">
             <span>Dejanos tu comentario...</span>
-            <textarea class="form-control" name="Aqui..." h-70 class="imput_text" aria-label="With textarea"
-              name="coments" placeholder="Aqui..."> </textarea>
+            <textarea class="form-control" name="coments" h-70 class="imput_text" aria-label="With textarea"
+              name="coments" placeholder="Escribe tu comentario..." 
+              data-pattern="^.{1,255}$"
+              title="Tu comentario no debe exeder los 255 caracteres" 
+              required>  </textarea>
           </div>
         </div>
+
+        <div class="contact-form-loader none">
+          <img src="img/loader-circles.svg" alt="Cargando">
+        </div>
+
+        <div class="contact-form-responce none">
+          <p> se envio correctamente </p>
+        </div>
+
         <button type="submit" class="btn btn-primary">Enviar</button>
+        <imput type="hiden" name="_next" value="http//localhost:8000">
+
       </form>
+
 
     </div>
   </main>
