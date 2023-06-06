@@ -26,7 +26,8 @@
 }
 
 .letra:hover{
-    transform: translatey(-1rem);
+    transform: translatey(-1rem) scale(2);
+    text-shadow: 2px 2px 2px rgb(255, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(251, 255, 0);
     background: -webkit-linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

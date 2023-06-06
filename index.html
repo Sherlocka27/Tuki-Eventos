@@ -169,7 +169,7 @@
         <div class="mb-3">
           <div class="col 6 form-control form-control-lg" id="imputEmail">
             <label for="exampleInputEmail1" class="imput_text">Correo electrónico: </label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="correo@example.com"
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="usuario@mail.example"
             title="El campo correo solo admite un mail valido" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
             <div id="emailHelp" class="form-text" ></div>
           </div>
@@ -179,18 +179,16 @@
           <div class="col 6 form-control form-control-lg">
             <span>Dejanos tu comentario...</span>
             <textarea class="form-control" name="coments" h-70 class="imput_text" aria-label="With textarea"
-              name="coments" placeholder="Escribe tu comentario..." 
-              data-pattern="^.{1,255}$"
-              title="Tu comentario no debe exeder los 255 caracteres" 
-              required>  </textarea>
+              name="coments" placeholder="Escribe tu comentario..." title="Tu comentario no debe exeder los 255 caracteres" 
+              data-pattern="^.{1,255}$" required></textarea>
           </div>
         </div>
-
+                       
         <div class="contact-form-loader none">
           <img src="img/loader-circles.svg" alt="Cargando">
         </div>
 
-        <div class="contact-form-responce none">
+        <div class="contact-form-response none">
           <p> se envio correctamente </p>
         </div>
 
