@@ -90,15 +90,14 @@ footer{
 #titulo-principal:hover{
   border: 3px solid #beffe1;
   box-shadow: inset 0 0 10px #47ffa3, 0 0 10px #5bffb2;
-  /*animation: parpadear 0.5s infinite backwards ;*/
   animation: parpadear .7s linear alternate infinite;
 
 }
 
 @keyframes parpadear{
   to{
-    border: 3px solid rgb(235, 90, 90);
-    box-shadow: inset 0 0 10px #e0f056, 0 0 10px #d6e04a;
+    border: 3px solid rgb(83, 83, 83);
+    box-shadow: inset 0 0 10px #47ffa3, 0 0 10px #5bffb2;
   }
 }
 
